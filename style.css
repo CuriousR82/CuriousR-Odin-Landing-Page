@@ -1,0 +1,200 @@
+* {
+    
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    /* border: solid 1px black; */
+    
+}
+
+/* MAKE NOTE OF THIS!!! make the height of body as the height of the window, flex display and column, then justify-content to space-between */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title, 
+a,
+h1,
+button,
+.website-description,
+h3
+{
+    color: white;
+}
+
+.header {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+ul {
+    gap: 3%;
+    width: 50%;
+    justify-content: right;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: x-large;
+}
+
+ul, a {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1 {
+    margin-bottom: 3%;
+    font-weight: 800;
+    font-size: xxx-large;
+}
+
+.website-description {
+    font-size: small;
+    line-height: 1.8;
+}
+
+.navy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(63, 51, 107);
+    
+}
+
+.intro-section {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+.button-1 {
+    background-color: rgb(163, 119, 205);
+    border: none;
+    border-radius: 5px;
+    margin-top: 3%;
+    padding: 2% 5%;
+}
+
+.description {
+    width: 65%;
+}
+
+.big-luna {
+    width: 25%; 
+    border-radius: 10px;
+}
+
+.info-section {
+    text-align: center;
+    margin: 5% 0%;
+}
+
+.small-pics {
+    width: 100%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    /* margin: 0px;
+    border-radius: 10px;
+    padding: 5%;
+    border: 1px solid rgb(63, 51, 107); */
+}
+
+.white-1 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: xx-large;
+    margin-bottom: 3%;
+}
+
+.info-section {
+    width: 70%;
+}
+
+.img-info {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+}
+
+.column {
+    width: 18%;
+}
+
+.gray {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(211, 211, 211);
+}
+
+.quote-section {
+    width: 60%;
+    margin: 5% 0%;
+}
+
+.quote {
+    margin-bottom: 2%;
+    line-height: 1.8;
+}
+
+.author {
+    display: flex;
+    justify-content: right;
+}
+
+.white-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0%;
+    background-color: rgb(163, 119, 205);
+    align-items: center;
+}
+
+.words {
+    margin: 5% 0% 5% 10%;
+}
+
+h3 {
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.button-2 {
+    background-color: rgb(163, 119, 205);
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 10%;
+    height: 40%;
+    width: 20%;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(63, 51, 107);
+}
+
+.footer p {
+    color: white;
+    padding: 1%;
+}
